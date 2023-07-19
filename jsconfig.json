@@ -3,8 +3,15 @@
     "baseUrl": "src",
     "paths": {
       "@components/*": ["components/*"],
+      "@assets/*": ["assets/*"],
+      "@hooks/*": ["hooks/*"],
+      "@layout/*": ["layout/*"],
+      "@modules/*": ["modules/*"],
+      "@pages/*": ["pages/*"],
+      "@routes/*": ["routes/*"],
+      "@services/*": ["services/*"],
       "@utils/*": ["utils/*"],
-      "@pages/*": ["pages/*"]
+      "@redux/*": ["redux/*"]
     }
   },
   "include": ["src"]

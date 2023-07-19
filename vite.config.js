@@ -8,5 +8,19 @@ export default defineConfig(({ mode }) => {
     server: {
       port: env.VITE_PORT,
     },
+    resolve: {
+      alias: {
+        '@components': '/src/components',
+        '@assets': '/src/assets',
+        '@hooks': '/src/hooks',
+        '@layout': '/src/layout',
+        '@modules': '/src/modules',
+        '@pages': '/src/pages',
+        '@routes': '/src/routes',
+        '@services': '/src/services',
+        '@utils': '/src/utils',
+        '@redux': '/src/redux',
+      },
+    },
   };
 });
